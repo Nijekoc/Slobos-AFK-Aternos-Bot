@@ -1,9 +1,9 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "AfkBot00",
-    "password": "Salameleg0Mal3g0sala",
-    "type": "online"
+    "username": "AfkBotpzg",
+    "password": "",
+    "type": "offline"
   },
   "server": {
     "ip": "Nijekoc.aternos.me",
@@ -20,12 +20,21 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "op=&#1431"
+      "password": "chalol78"
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true,
+      "sneak": true
     },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 120,
+      "messages": [
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
+      ]
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -35,33 +44,33 @@
   "movement": {
     "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": false,
+      "enabled": true,
       "interval": 5000
     },
     "random-jump": {
       "enabled": true,
       "interval": 10000
-    },
+    }
   },
   "modules": {
-    "avoidMobs": false,
-    "combat": false,
+    "avoidMobs": true,
+    "combat": true,
     "beds": false,
-    "chat": false,
+    "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
-    "auto-eat": true,
+    "attack-mobs": true,
+    "auto-eat": true
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true,
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
     "enabled": false,
@@ -69,10 +78,10 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false,
-    },
+      "chat": false
+    }
   },
   "chat": {
-    "respond": true,
+    "respond": true
   }
 }
