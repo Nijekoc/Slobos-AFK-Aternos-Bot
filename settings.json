@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "AfkBot00",
     "password": "Salameleg0Mal3g0sala",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
     "ip": "Nijekoc.aternos.me",
@@ -49,7 +49,7 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": false,
+      "enabled": true,
       "interval": 10000
     }
   },
@@ -62,11 +62,11 @@
   },
   "combat": {
     "attack-mobs": false,
-    "auto-eat": false
+    "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
