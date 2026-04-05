@@ -24,13 +24,8 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": true,
     },
-    "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 120,
-    }
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -51,7 +46,7 @@
     "random-jump": {
       "enabled": true,
       "interval": 10000
-    }
+    },
   },
   "modules": {
     "avoidMobs": false,
@@ -62,11 +57,11 @@
   },
   "combat": {
     "attack-mobs": false,
-    "auto-eat": true
+    "auto-eat": true,
   },
   "beds": {
     "pick-up-day": true,
-    "place-night": true
+    "place-night": true,
   },
   "discord": {
     "enabled": false,
@@ -74,10 +69,10 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
-    }
+      "chat": false,
+    },
   },
   "chat": {
-    "respond": true
+    "respond": true,
   }
 }
